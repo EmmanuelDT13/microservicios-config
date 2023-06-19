@@ -1,6 +1,12 @@
 spring:
-  application:
-    name: Config-produc
+  datasource: 
+    url: jdbc:postgresql://localhost:8083/microservicios
+    username: postgres
+    password: EmmanuelDT13
+  jpa: 
+    hibernate: 
+      ddl-auto: update
+    show-sql: true
 
 eureka:
   instance:
