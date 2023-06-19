@@ -1,0 +1,11 @@
+  datasource:
+    url: jdbc:mysql://localhost:5000/microservicios
+    username: root
+    password: EmmanuelDT13
+  jpa: 
+    hibernate: 
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
